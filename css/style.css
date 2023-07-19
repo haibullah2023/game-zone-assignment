@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-container{
+    /* border: 1px solid red; */
+    min-height: 50px;
+    display: flex;
+    background-color:wheat;
+}
+.logo-container{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+     justify-content: center;
+     align-content: center;
+}
+.logo-container img{
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    
+}
+.logo-color{
+    color: #FF42A5;
+}
+.logo-container h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-items-container{
+    /* border: 1px solid blue; */
+    width: 50%;
+   
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+
+}
+.nav-items li{
+    list-style: none;
+    margin-left: 50px;
+
+}
+/* end of nav bar section  */
+
+/* <!-- start banner section  --> */
+
+.main-section-gamer{
+    border: 1px solid red;
+    min-height: 400px;
+    margin-top: 10px;
+    display: flex;
+}    
+.text-container{
+    border: 1px solid green;
+    width: 50%;
+    display: inline;
+   justify-content: center;
+   align-items: center;
+}
+.text-container h3{
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600;
+}
+.text-container h1{
+    color:  #F948B2;
+    font-size: 55px;
+    font-weight: 800;
+    
+}
+.text-container p{
+    color: #534C64;
+    font-size: 10px;
+}
+.img-container{
+    border: 1px solid black;
+    width: 50%; 
+}
+.img-container img{
+    width: 50%;
+    margin-left: 100px;
+    display: block;
+    margin: 0 auto;
+}
+/* main section game done  */
+
+.main-section-online-games{
+    
+}
