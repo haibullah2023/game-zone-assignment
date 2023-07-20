@@ -137,3 +137,61 @@ body {
     text-align: center;
 }
 /* main section game end  */
+
+/* start play game section  */
+.play-games-container{
+    border: 1px solid red;
+    display: flex;
+    min-height: 400px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.game-title-text{
+    width: 50%;
+    border: 1px solid black;
+    
+
+}
+.game-title-text h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 90px;
+    
+}
+.game-title-text p{
+    font-size: 10px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.game-title-img{
+    display: flex;
+    width: 50%;
+    border: 1px solid black;
+}
+.second-img{
+    width: 30%;
+    border: 1px solid red;
+    margin-right: -50px;
+   
+    
+}
+.first-img{
+    width: 70%;
+    border: 1px solid red;
+    
+}
+.second-img img{
+    height: 170px;
+    width: 170px;
+    margin-top: 250px;
+    
+    
+}
+.first-img img{
+    height: 350px;
+    width: 350px;
+
+}
+/* close play game section  */
