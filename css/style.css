@@ -167,20 +167,14 @@ body {
     width: 500px;
   }
   .game-play-img-1 {
-    height: 100%;
-    width: 100%;
-  }
-  .game-play-img-2 {
-    height: 50%;
     position: relative;
-    bottom: 200px;
-    right: 100px;
+    width: 50%;
   }
   .game-play-img-2-2 {
     height: 50%;
-    position: relative;
-    bottom: 200px;
-    left: 380px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
   }
   .game-text {
     text-align: right;
@@ -310,6 +304,10 @@ body {
     color: white;
     margin-left: 350px;
     margin-top: -20px;
+  }
+
+  .ok{
+    display: none;
   }
 
 
