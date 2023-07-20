@@ -88,6 +88,22 @@ body {
     color: #534C64;
     font-size: 10px;
 }
+.btn-1,
+.btn-2 {
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  padding: 0.8rem 2rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.btn-2 {
+  border-radius: 48px;
+  background: #4ec5f7;
+  margin-left: 1rem;
+}
 .img-container{
     border: 1px solid black;
     width: 50%; 
