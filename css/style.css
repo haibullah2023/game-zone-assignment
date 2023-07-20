@@ -64,16 +64,25 @@ body {
    justify-content: center;
    align-items: center;
 }
+.section-two-title-text{
+    /* text-align: center; */
+    margin-left: 50px;
+}
 .text-container h3{
     color: #0B0223;
     font-size: 35px;
     font-weight: 600;
+    margin-bottom: -45px;
 }
 .text-container h1{
     color:  #F948B2;
     font-size: 55px;
     font-weight: 800;
     
+}
+.p-section{
+    margin-left: 50px;
+    /* text-align: center; */
 }
 .text-container p{
     color: #534C64;
@@ -92,5 +101,39 @@ body {
 /* main section game done  */
 
 .main-section-online-games{
+    border: 1px solid red;
+    min-height: 400px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.title-text{
+    text-align: center;
+    margin-top: -20px;
+}
+.title-text h2{
+    font-size: 38px;
+}
+.title-color{
+    color:#F948B2;
+}
+.title-text P{
+    font-size: 15px;
+    margin-top: -25px;
+}
+.gaming-img-container{
+    display: flex;
+    gap: 10px;
+    margin-left: 60px;
+}
+.gaming-img-container img{
+    height: 270px;
+    width: 250px;
+    
     
 }
+.gaming-img-container p{
+    font-size: 10px;
+    text-align: center;
+}
+/* main section game end  */
