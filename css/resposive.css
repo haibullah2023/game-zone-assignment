@@ -48,5 +48,12 @@
       .game-play-img-container {
         width: 100%;
       }
+      /* game button  */
 
+      .game-button-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+      }
 }

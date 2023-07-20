@@ -8,7 +8,7 @@ body {
     /* border: 1px solid red; */
     min-height: 50px;
     display: flex;
-    background-color:wheat;
+    background-color:rgb(255, 255, 255);
 }
 .logo-container{
     /* border: 1px solid green; */
@@ -40,6 +40,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
+    align-items: center;
 
 }
 .nav-items li{
@@ -47,18 +48,26 @@ body {
     margin-left: 50px;
 
 }
+.follow-bar{
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: gold;
+  color: white;
+  margin-right: 10px;
+}
 /* end of nav bar section  */
 
 /* <!-- start banner section  --> */
 
 .main-section-gamer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 400px;
     margin-top: 10px;
     display: flex;
+    background-color: rgb(236, 223, 223); 
 }    
 .text-container{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 50%;
     display: inline;
    justify-content: center;
@@ -105,8 +114,10 @@ body {
   margin-left: 1rem;
 }
 .img-container{
-    border: 1px solid black;
-    width: 50%; 
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-top: 50px;
+    
 }
 .img-container img{
     width: 50%;
@@ -117,7 +128,7 @@ body {
 /* main section game done  */
 
 .main-section-online-games{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 400px;
     margin-top: 10px;
     margin-left: 50px;
@@ -222,7 +233,7 @@ body {
     font-weight: 600;
   }
   .game-button:hover {
-    border: 1.5px solid #ff42a5;
+    /* border: 1.5px solid #ff42a5; */
     border-radius: 50px;
     background: #fff;
     background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
@@ -247,7 +258,7 @@ body {
 
 /* start footer section  */
 .footer-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 500px;
     background-color: #0B0223;
 }
